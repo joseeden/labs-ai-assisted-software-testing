@@ -458,13 +458,9 @@ Sample prompt:
 
 For this Github repository, the AI model generated a Github Actions workflow file (`.github/workflows/tests.yml`) that runs tests on every push and pull request. The workflow installs dependencies, sets up Python, and executes the test suite with coverage.
 
-**Note:** The tests in the CI workflow are run on the "runtime-protection" version of the code to ensure that all new protections are validated in the automated pipeline.
+**Note 1:** The tests in the CI workflow are run on the "runtime-protection" version of the code to ensure that all new protections are validated in the automated pipeline.
 
-```yaml
-
-```
-
-**Note:** In actual implementation, you may want to run CI on specific branches instead of all branches to avoid unnecessary runs. Below is an example of a more targeted CI trigger configuration.
+**Note 2:** In actual implementation, you may want to run CI on specific branches instead of all branches to avoid unnecessary runs. Below is an example of a more targeted CI trigger configuration.
 
 ```yaml
 name: Python Tests
