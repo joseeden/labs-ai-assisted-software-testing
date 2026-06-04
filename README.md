@@ -1,5 +1,5 @@
 
-# Lab: AI-Assisted Testing 
+# Lab: AI-Assisted Software Testing 
 
 ## Overview
 
