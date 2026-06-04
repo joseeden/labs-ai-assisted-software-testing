@@ -1,5 +1,4 @@
 pytest
 coverage
 pip-audit
-semgrep
 pyjwt==2.13.0
