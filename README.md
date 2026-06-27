@@ -14,6 +14,15 @@ This page covers how AI supports different aspects of software testing and quali
 - Dependency management
 - Automated testing with CI
 
+## Workflow Diagram
+
+The diagram below summarizes how the lab moves from test-gap analysis to generated tests, coverage checks, runtime protections, and CI automation.
+
+<div class='img-center'>
+
+![](/img/docs/project-ai-assisted-testing-cicd.png)
+
+</div>
 
 ## Example Codebase 
 
@@ -823,4 +832,3 @@ The static security scan with `semgrep` reports any code patterns that match kno
 ![](/img/docs/Screenshot2026-06-05015255.png)
 
 </div>
-
